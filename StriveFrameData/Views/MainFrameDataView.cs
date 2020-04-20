@@ -1,4 +1,6 @@
-﻿using System.Windows.Forms;
+﻿using System.Drawing;
+using System.Windows.Forms;
+using StriveFrameData.UserControls;
 
 namespace StriveFrameData.Views
 {
@@ -7,6 +9,12 @@ namespace StriveFrameData.Views
         public MainFrameDataView()
         {
             InitializeComponent();
+        }
+
+        private void tabSolPage_Click(object sender, System.EventArgs e)
+        {
+            FrameDataControl fdc = new FrameDataControl();
+            this.tabSolPage.Controls.Add(fdc);
         }
     }
 }
