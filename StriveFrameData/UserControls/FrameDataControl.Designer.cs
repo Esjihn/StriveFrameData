@@ -62,17 +62,17 @@
             this.lblStandingHeavySlash = new System.Windows.Forms.Label();
             this.lblStandingDust = new System.Windows.Forms.Label();
             this.lblStandingNA = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.lblCloseStandingPunch = new System.Windows.Forms.Label();
+            this.lblCloseStandingKick = new System.Windows.Forms.Label();
+            this.lblCloseStandingSlash = new System.Windows.Forms.Label();
+            this.lblCloseStandingHardSlash = new System.Windows.Forms.Label();
+            this.lblCloseStandingDust = new System.Windows.Forms.Label();
             this.lblClosePunch = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblCrouchPunch = new System.Windows.Forms.Label();
+            this.lblCrouchKick = new System.Windows.Forms.Label();
+            this.lblCrouchSlash = new System.Windows.Forms.Label();
+            this.lblCrouchHeavySlash = new System.Windows.Forms.Label();
+            this.lblCrouchDust = new System.Windows.Forms.Label();
             this.lblCrouchNA = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -408,60 +408,60 @@
             this.lblStandingNA.TabIndex = 54;
             this.lblStandingNA.Text = "5 NA";
             // 
-            // label6
+            // lblCloseStandingPunch
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(452, 85);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 38);
-            this.label6.TabIndex = 55;
-            this.label6.Text = "cl 5P";
+            this.lblCloseStandingPunch.AutoSize = true;
+            this.lblCloseStandingPunch.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCloseStandingPunch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCloseStandingPunch.Location = new System.Drawing.Point(452, 85);
+            this.lblCloseStandingPunch.Name = "lblCloseStandingPunch";
+            this.lblCloseStandingPunch.Size = new System.Drawing.Size(88, 38);
+            this.lblCloseStandingPunch.TabIndex = 55;
+            this.lblCloseStandingPunch.Text = "cl 5P";
             // 
-            // label7
+            // lblCloseStandingKick
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(452, 137);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(88, 38);
-            this.label7.TabIndex = 56;
-            this.label7.Text = "cl 5P";
+            this.lblCloseStandingKick.AutoSize = true;
+            this.lblCloseStandingKick.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCloseStandingKick.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCloseStandingKick.Location = new System.Drawing.Point(447, 137);
+            this.lblCloseStandingKick.Name = "lblCloseStandingKick";
+            this.lblCloseStandingKick.Size = new System.Drawing.Size(93, 38);
+            this.lblCloseStandingKick.TabIndex = 56;
+            this.lblCloseStandingKick.Text = "cl 5K";
             // 
-            // label8
+            // lblCloseStandingSlash
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label8.Location = new System.Drawing.Point(452, 189);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 38);
-            this.label8.TabIndex = 57;
-            this.label8.Text = "cl 5P";
+            this.lblCloseStandingSlash.AutoSize = true;
+            this.lblCloseStandingSlash.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCloseStandingSlash.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCloseStandingSlash.Location = new System.Drawing.Point(454, 189);
+            this.lblCloseStandingSlash.Name = "lblCloseStandingSlash";
+            this.lblCloseStandingSlash.Size = new System.Drawing.Size(86, 38);
+            this.lblCloseStandingSlash.TabIndex = 57;
+            this.lblCloseStandingSlash.Text = "cl 5S";
             // 
-            // label9
+            // lblCloseStandingHardSlash
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(452, 241);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 38);
-            this.label9.TabIndex = 58;
-            this.label9.Text = "cl 5P";
+            this.lblCloseStandingHardSlash.AutoSize = true;
+            this.lblCloseStandingHardSlash.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCloseStandingHardSlash.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCloseStandingHardSlash.Location = new System.Drawing.Point(428, 241);
+            this.lblCloseStandingHardSlash.Name = "lblCloseStandingHardSlash";
+            this.lblCloseStandingHardSlash.Size = new System.Drawing.Size(112, 38);
+            this.lblCloseStandingHardSlash.TabIndex = 58;
+            this.lblCloseStandingHardSlash.Text = "cl 5HS";
             // 
-            // label10
+            // lblCloseStandingDust
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label10.Location = new System.Drawing.Point(452, 293);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(88, 38);
-            this.label10.TabIndex = 59;
-            this.label10.Text = "cl 5P";
+            this.lblCloseStandingDust.AutoSize = true;
+            this.lblCloseStandingDust.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCloseStandingDust.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCloseStandingDust.Location = new System.Drawing.Point(452, 293);
+            this.lblCloseStandingDust.Name = "lblCloseStandingDust";
+            this.lblCloseStandingDust.Size = new System.Drawing.Size(92, 38);
+            this.lblCloseStandingDust.TabIndex = 59;
+            this.lblCloseStandingDust.Text = "cl 5D";
             // 
             // lblClosePunch
             // 
@@ -474,71 +474,71 @@
             this.lblClosePunch.TabIndex = 60;
             this.lblClosePunch.Text = "cl NA";
             // 
-            // label12
+            // lblCrouchPunch
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(860, 85);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 38);
-            this.label12.TabIndex = 61;
-            this.label12.Text = "cl 5P";
+            this.lblCrouchPunch.AutoSize = true;
+            this.lblCrouchPunch.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrouchPunch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCrouchPunch.Location = new System.Drawing.Point(893, 85);
+            this.lblCrouchPunch.Name = "lblCrouchPunch";
+            this.lblCrouchPunch.Size = new System.Drawing.Size(55, 38);
+            this.lblCrouchPunch.TabIndex = 61;
+            this.lblCrouchPunch.Text = "2P";
             // 
-            // label13
+            // lblCrouchKick
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label13.Location = new System.Drawing.Point(860, 137);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(88, 38);
-            this.label13.TabIndex = 62;
-            this.label13.Text = "cl 5P";
+            this.lblCrouchKick.AutoSize = true;
+            this.lblCrouchKick.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrouchKick.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCrouchKick.Location = new System.Drawing.Point(888, 137);
+            this.lblCrouchKick.Name = "lblCrouchKick";
+            this.lblCrouchKick.Size = new System.Drawing.Size(60, 38);
+            this.lblCrouchKick.TabIndex = 62;
+            this.lblCrouchKick.Text = "2K";
             // 
-            // label14
+            // lblCrouchSlash
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label14.Location = new System.Drawing.Point(860, 189);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(88, 38);
-            this.label14.TabIndex = 63;
-            this.label14.Text = "cl 5P";
+            this.lblCrouchSlash.AutoSize = true;
+            this.lblCrouchSlash.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrouchSlash.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCrouchSlash.Location = new System.Drawing.Point(895, 189);
+            this.lblCrouchSlash.Name = "lblCrouchSlash";
+            this.lblCrouchSlash.Size = new System.Drawing.Size(53, 38);
+            this.lblCrouchSlash.TabIndex = 63;
+            this.lblCrouchSlash.Text = "2S";
             // 
-            // label15
+            // lblCrouchHeavySlash
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label15.Location = new System.Drawing.Point(860, 241);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(88, 38);
-            this.label15.TabIndex = 64;
-            this.label15.Text = "cl 5P";
+            this.lblCrouchHeavySlash.AutoSize = true;
+            this.lblCrouchHeavySlash.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrouchHeavySlash.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCrouchHeavySlash.Location = new System.Drawing.Point(869, 241);
+            this.lblCrouchHeavySlash.Name = "lblCrouchHeavySlash";
+            this.lblCrouchHeavySlash.Size = new System.Drawing.Size(79, 38);
+            this.lblCrouchHeavySlash.TabIndex = 64;
+            this.lblCrouchHeavySlash.Text = "2HS";
             // 
-            // label16
+            // lblCrouchDust
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label16.Location = new System.Drawing.Point(860, 293);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(88, 38);
-            this.label16.TabIndex = 65;
-            this.label16.Text = "cl 5P";
+            this.lblCrouchDust.AutoSize = true;
+            this.lblCrouchDust.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrouchDust.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblCrouchDust.Location = new System.Drawing.Point(889, 293);
+            this.lblCrouchDust.Name = "lblCrouchDust";
+            this.lblCrouchDust.Size = new System.Drawing.Size(59, 38);
+            this.lblCrouchDust.TabIndex = 65;
+            this.lblCrouchDust.Text = "2D";
             // 
             // lblCrouchNA
             // 
             this.lblCrouchNA.AutoSize = true;
             this.lblCrouchNA.Font = new System.Drawing.Font("Times New Roman", 14.14286F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCrouchNA.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblCrouchNA.Location = new System.Drawing.Point(893, 345);
+            this.lblCrouchNA.Location = new System.Drawing.Point(856, 345);
             this.lblCrouchNA.Name = "lblCrouchNA";
-            this.lblCrouchNA.Size = new System.Drawing.Size(55, 38);
+            this.lblCrouchNA.Size = new System.Drawing.Size(92, 38);
             this.lblCrouchNA.TabIndex = 66;
-            this.lblCrouchNA.Text = "2P";
+            this.lblCrouchNA.Text = "2 NA";
             // 
             // FrameDataControl
             // 
@@ -548,17 +548,17 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.Controls.Add(this.lblCrouchNA);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.lblCrouchDust);
+            this.Controls.Add(this.lblCrouchHeavySlash);
+            this.Controls.Add(this.lblCrouchSlash);
+            this.Controls.Add(this.lblCrouchKick);
+            this.Controls.Add(this.lblCrouchPunch);
             this.Controls.Add(this.lblClosePunch);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.lblCloseStandingDust);
+            this.Controls.Add(this.lblCloseStandingHardSlash);
+            this.Controls.Add(this.lblCloseStandingSlash);
+            this.Controls.Add(this.lblCloseStandingKick);
+            this.Controls.Add(this.lblCloseStandingPunch);
             this.Controls.Add(this.lblStandingNA);
             this.Controls.Add(this.lblStandingDust);
             this.Controls.Add(this.lblStandingHeavySlash);
@@ -636,17 +636,17 @@
         private System.Windows.Forms.Label lblStandingHeavySlash;
         private System.Windows.Forms.Label lblStandingDust;
         private System.Windows.Forms.Label lblStandingNA;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lblCloseStandingPunch;
+        private System.Windows.Forms.Label lblCloseStandingKick;
+        private System.Windows.Forms.Label lblCloseStandingSlash;
+        private System.Windows.Forms.Label lblCloseStandingHardSlash;
+        private System.Windows.Forms.Label lblCloseStandingDust;
         private System.Windows.Forms.Label lblClosePunch;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblCrouchPunch;
+        private System.Windows.Forms.Label lblCrouchKick;
+        private System.Windows.Forms.Label lblCrouchSlash;
+        private System.Windows.Forms.Label lblCrouchHeavySlash;
+        private System.Windows.Forms.Label lblCrouchDust;
         private System.Windows.Forms.Label lblCrouchNA;
     }
 }
