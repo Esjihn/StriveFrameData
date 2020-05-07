@@ -137,6 +137,7 @@
             this.Controls.Add(this.tabCharacters);
             this.Name = "MainFrameDataView";
             this.Text = "Guilty Gear Strive Frame Data";
+            this.Load += new System.EventHandler(this.MainFrameDataView_Load);
             this.tabCharacters.ResumeLayout(false);
             this.ResumeLayout(false);
 

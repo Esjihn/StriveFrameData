@@ -9,18 +9,17 @@ namespace StriveFrameData.Views
         public MainFrameDataView()
         {
             InitializeComponent();
-            AddFrameDataControlToTabs();
         }
 
-        #region Private Methods
-
         /// <summary>
-        /// Load main frame data user control into all character tabs
+        /// Main Frame data view load event.
+        /// Loads user controls into form.
         /// </summary>
-        private void AddFrameDataControlToTabs()
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void MainFrameDataView_Load(object sender, System.EventArgs e)
         {
             FrameDataControl fdc = new FrameDataControl();
-            fdc.MaximumSize = new Size(1302, 703);
             FrameDataControl fdc2 = new FrameDataControl();
             FrameDataControl fdc3 = new FrameDataControl();
             FrameDataControl fdc4 = new FrameDataControl();
@@ -37,7 +36,5 @@ namespace StriveFrameData.Views
             this.tabPotemkinPage.Controls.Add(fdc7);
             this.Dock = DockStyle.Fill;
         }
-
-#endregion
     }
 }
