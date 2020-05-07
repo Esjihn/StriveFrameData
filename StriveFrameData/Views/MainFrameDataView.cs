@@ -31,6 +31,9 @@ namespace StriveFrameData.Views
         }
         
         #region Private Methods
+        /// <summary>
+        /// Loads user controls into All Tab Pages during form load event.
+        /// </summary>
         private void LoadUserControlsIntoTabs()
         {
             MainFrameDataPresenter p = new MainFrameDataPresenter();
@@ -54,6 +57,9 @@ namespace StriveFrameData.Views
             this.Dock = DockStyle.Fill;
         }
 
+        /// <summary>
+        /// Loads Frame Data data into all combo boxes during form load event.
+        /// </summary>
         private void LoadFrameDataIntoAllComboBoxes()
         {
             
