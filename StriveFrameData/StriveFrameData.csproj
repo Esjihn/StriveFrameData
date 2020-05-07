@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\FrameDataModel.cs" />
     <Compile Include="PresentationObjects\MainFrameDataPO.cs" />
     <Compile Include="Presenters\MainFrameDataPresenter.cs" />
     <Compile Include="UserControls\FrameDataControl.cs">
@@ -93,7 +94,6 @@
   <ItemGroup>
     <Folder Include="Builders\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Models\" />
     <Folder Include="ViewInterfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

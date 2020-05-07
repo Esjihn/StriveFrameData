@@ -40,15 +40,7 @@ namespace StriveFrameData.PresentationObjects
         #endregion
 
         #region Additional Notes UI
-        public bool isBold { get; set; }
-        public bool isItalic { get; set; }
-        public bool isUnderline { get; set; }
         public string AdditionalNotesTextBoxText { get; set; }
-        #endregion
-
-        #region ImportExport UI
-        public bool IsImport { get; set; }
-        public bool isExport { get; set; }
         #endregion
     }
 }
