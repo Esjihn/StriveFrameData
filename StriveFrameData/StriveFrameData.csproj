@@ -49,11 +49,11 @@
     <Compile Include="Models\FrameDataModel.cs" />
     <Compile Include="PresentationObjects\MainFrameDataPO.cs" />
     <Compile Include="Presenters\MainFrameDataPresenter.cs" />
-    <Compile Include="UserControls\FrameDataControl.cs">
+    <Compile Include="UserControls\FrameDataUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\FrameDataControl.Designer.cs">
-      <DependentUpon>FrameDataControl.cs</DependentUpon>
+    <Compile Include="UserControls\FrameDataUserControl.Designer.cs">
+      <DependentUpon>FrameDataUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\MainFrameDataView.cs">
       <SubType>Form</SubType>
@@ -63,8 +63,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="UserControls\FrameDataControl.resx">
-      <DependentUpon>FrameDataControl.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\FrameDataUserControl.resx">
+      <DependentUpon>FrameDataUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\MainFrameDataView.resx">
       <DependentUpon>MainFrameDataView.cs</DependentUpon>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StriveFrameData.UserControls
 {
-    public partial class FrameDataControl : UserControl
+    public partial class FrameDataUserControl : UserControl
     {
-        public FrameDataControl()
+        public FrameDataUserControl()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace StriveFrameData.UserControls
 {
-    partial class FrameDataControl
+    partial class FrameDataUserControl
     {
         /// <summary> 
         /// Required designer variable.

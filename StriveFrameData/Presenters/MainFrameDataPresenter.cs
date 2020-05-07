@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StriveFrameData.UserControls;
 
 namespace StriveFrameData.Presenters
 {
@@ -17,5 +18,35 @@ namespace StriveFrameData.Presenters
         // Setup ImportData()
 
         // Setup ExportData()
+
+        /// <summary>
+        /// List of tabbed frame data user controls
+        /// </summary>
+        public static List<FrameDataUserControl> FrameDataUserControls { get; set; }
+
+        /// <summary>
+        /// Load User Control List into p.FrameDataUserControls
+        /// </summary>
+        public void Initialize()
+        {
+            List<FrameDataUserControl> userControlList = new List<FrameDataUserControl>();
+            FrameDataUserControl fdc = new FrameDataUserControl();
+            FrameDataUserControl fdc2 = new FrameDataUserControl();
+            FrameDataUserControl fdc3 = new FrameDataUserControl();
+            FrameDataUserControl fdc4 = new FrameDataUserControl();
+            FrameDataUserControl fdc5 = new FrameDataUserControl();
+            FrameDataUserControl fdc6 = new FrameDataUserControl();
+            FrameDataUserControl fdc7 = new FrameDataUserControl();
+            userControlList.Add(fdc);
+            userControlList.Add(fdc2);
+            userControlList.Add(fdc3);
+            userControlList.Add(fdc4);
+            userControlList.Add(fdc5);
+            userControlList.Add(fdc6);
+            userControlList.Add(fdc7);
+
+            FrameDataUserControls = new List<FrameDataUserControl>();
+            FrameDataUserControls = userControlList;
+        }
     }
 }
