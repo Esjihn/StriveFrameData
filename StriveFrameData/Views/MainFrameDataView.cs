@@ -28,8 +28,6 @@ namespace StriveFrameData.Views
                 MainFrameDataPresenter p = new MainFrameDataPresenter();
                 p.Initialize();
 
-
-
                 CreateTabPagesList();
                 LoadUserControlsIntoTabs();
                 LoadFrameDataIntoAllComboBoxes();
@@ -71,12 +69,11 @@ namespace StriveFrameData.Views
         private void LoadFrameDataIntoAllComboBoxes()
         {
             MainFrameDataPresenter p = new MainFrameDataPresenter();
-            p.FrameDataList();
 
             // Tab pages
             for(int i = 0; i < TabPages.Count; i++)
             {
-                // User controls
+                // User controls inside of tab page 
                 for (int j = 0; i < TabPages[i].Controls.Count; i++)
                 {
                     // User control controlCollection
@@ -87,9 +84,7 @@ namespace StriveFrameData.Views
                             ComboBox comboBoxControl = TabPages[i].Controls[j] as ComboBox;
                             if (comboBoxControl != null)
                             {
-                                BindingSource bs = new BindingSource();
-                                bs.DataSource = p.FrameDataList();
-                                comboBoxControl.DataSource = bs.DataSource;
+                                comboBoxControl.DataSource = p.FrameDataList();
                             }
                         }
                     }
