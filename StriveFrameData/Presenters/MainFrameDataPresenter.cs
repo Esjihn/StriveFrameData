@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using StriveFrameData.Models;
 using StriveFrameData.UserControls;
 
 namespace StriveFrameData.Presenters
@@ -20,7 +21,7 @@ namespace StriveFrameData.Presenters
         // Setup ExportData()
 
         /// <summary>
-        /// List of tabbed frame data user controls
+        /// List of tabbed frame data user controls as Singleton
         /// </summary>
         public static List<FrameDataUserControl> FrameDataUserControls { get; set; }
 
@@ -47,6 +48,26 @@ namespace StriveFrameData.Presenters
 
             FrameDataUserControls = new List<FrameDataUserControl>();
             FrameDataUserControls = userControlList;
+        }
+
+        /// <summary>
+        /// Creates Frame Data List from FrameDataModel class. 
+        /// </summary>
+        /// <returns>String list of Frame data model constants</returns>
+        public List<string> FrameDataList()
+        {
+            FrameDataModel fdm = new FrameDataModel();
+
+            List<string> fdmList = new List<string>
+            {
+                fdm.LargeAdvantageConst,
+                fdm.SlightAdvantageConst,
+                fdm.NeutralEvenConst,
+                fdm.SlightDisadvantageConst,
+                fdm.LargeDisadvantageConst
+            };
+
+            return fdmList;
         }
     }
 }
